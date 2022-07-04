@@ -242,6 +242,14 @@ ul {
     align-items: center;
 }
 
+.store__items article {
+    transition: 0.3s;
+}
+
+.store__items article:hover {
+    transform: translateY(-10px);
+}
+
 .items__image {
     height: 230px;
     width: 90%;
