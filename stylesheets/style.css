@@ -68,6 +68,11 @@ ul {
 
 .content__navbar li {
     padding: 10px;
+    transition: 0.2s;
+}
+
+.content__navbar li:hover {
+    transform: scale(1.15);
 }
 
 /* FORMATO DEL MAIN INDEX */
@@ -141,6 +146,14 @@ ul {
 .links__list {
     display: flex;
     justify-content: space-around;
+}
+
+.links__list li {
+    transition: 0.2s;
+}
+
+.links__list li:hover {
+    transform: scale(1.15);
 }
 
 /* FORMATO DEL MAIN ABOUT */
