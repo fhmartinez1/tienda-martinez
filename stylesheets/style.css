@@ -104,7 +104,7 @@ ul {
     padding: 5px 10px;
     border: #bebebe;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.7);
+    background-image: linear-gradient(to bottom, #F4BFBF, coral);
     box-shadow:  20px 20px 60px #bebebe,
                 -20px -20px 60px #ffffff;
 }
