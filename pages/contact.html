@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contact</title>
+    <link rel="shortcut icon" href="../assets/img/logo.png"/>
+    <link rel="stylesheet" href="../stylesheets/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="common-container-grid">
+        <header class="header">
+            <div class="header__content container">
+                <img id="logo" src="../assets/img/logo.png" alt="Logo del sitio"/>
+                <nav>
+                    <ul class="content__navbar">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./store.html">Store</a></li>
+                        <li><a href="./about.html">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__contact container">
+                <h2 class="contact__title top-title">Contact</h2>
+                <form class="contact__form" action="ruta a donde van los datos" method="GET/POST" enctype="como se va a encriptar">
+                    <div class="form__container">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre..."/>
+                        <label for="correo">Correo</label>
+                        <input type="email" id="correo" name="correo" placeholder="Email..."/>
+                        <label for="consulta">Consulta</label>
+                        <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Escriba su consulta..."></textarea>
+                    </div>
+                        <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__content container">
+                <img id="logo" src="../assets/img/logo.png" alt="Logo del sitio"/>
+                <div class="content__links">
+                    <ul class="links__list">
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./faq.html">FAQs</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
