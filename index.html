@@ -34,14 +34,39 @@
                 </nav>
         </div>
     </header>
-    <main class="main parallax">
+
+    <main class="main">
+        <h2 class="content__title pt-4">Home</h2>
         <section class="main__content container">
-            <div class="content__container">
-                <img class="container__image" src="./assets/img/tienda-online.jpg" alt="Imagen celu tienda-online"/>
-            </div>
-            <h2 class="content__title">Home</h2>
+            <div id="carouselExampleIndicators" class="carousel slide content__container py-4" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner container__image">
+                  <div class="carousel-item active">
+                    <img src="https://picsum.photos/600/300?random=1" class="d-block w-100" alt="imagen carousel 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://picsum.photos/600/300?random=2" class="d-block w-100" alt="imagen carousel 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://picsum.photos/600/300?random=3" class="d-block w-100" alt="imagen carousel 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="footer__content container">
             <img id="logo" src="./assets/img/logo.png" alt="Logo del sitio"/>
