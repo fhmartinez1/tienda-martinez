@@ -50,9 +50,7 @@ ul {
 .header {
     background-color: coral;
     color: #e2e8f0;
-    padding: 20px 50px;
     grid-area: header;
-    max-height: 80px;
 }
 
 .header__content {
