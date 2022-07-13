@@ -1,0 +1,25 @@
+.header {
+    background-color: $primary;
+    color: $text-white;
+    grid-area: header;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.content__navbar {
+    display: flex;
+}
+
+.content__navbar li {
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.content__navbar li:hover {
+    transform: scale(1.15);
+}
