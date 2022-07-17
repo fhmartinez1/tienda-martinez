@@ -25,17 +25,6 @@ ul {
     list-style-type: none;
 }
 
-/* GRID */
-.common-container-grid {
-    display: grid;
-    /* grid areas */
-    grid-template-areas: 
-        "header   header  header"
-        "main     main    main"
-        "footer   footer  footer";
-    grid-template-rows: 0.1f 1f 0.1f;
-}
-
 /* FORMATO DEL HEADER */
 .header {
     background-color: #C1FFD7;
