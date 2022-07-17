@@ -262,6 +262,10 @@ ul {
     overflow-y: auto;
 }
 
+.card-body h2 {
+    font-size: x-large;
+}
+
 .card-btn {
     height: 6rem;
 }
