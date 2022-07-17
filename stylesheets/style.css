@@ -198,7 +198,6 @@ ul {
 }
 
 /* FORMATO DEL MAIN STORE */
-
 .store__title {
     text-align: center;
 }
@@ -286,7 +285,6 @@ ul {
 }
 
 /* FORMATO DEL MAIN CONTACT */
-/* En esta parte queria dejarlo como esta en el wireframe, pero entiendo que todavia no tengo la info para hacerlo asi que lo acomode lo mas parecido posible */
 .main__contact {
     display: flex;
     flex-direction: column;
