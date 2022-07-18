@@ -182,6 +182,10 @@ ul {
     justify-items: center;
 }
 
+.accordion-item {
+    width: 100%;
+}
+
 .faq__content dl {
     /* margin: 0 10%; */
     width: 90%;

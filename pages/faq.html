@@ -45,23 +45,104 @@
     <main class="main">
         <section class="main__faq container">
             <h1 class="faq__title pt-4">FAQs</h1>
-            <div class="faq__content">
-                <dl>
-                    <dt>Frequently asked question?</dt>
-                    <dd>Answer for the frequently asked question.</dd>
-                    <dt>Frequently asked question?</dt>
-                    <dd>Answer for the frequently asked question.</dd>
-                    <dt>Frequently asked question?</dt>
-                    <dd>Answer for the frequently asked question.</dd>
-                </dl>
-                <dl>
-                    <dt>Frequently asked question?</dt>
-                    <dd>Answer for the frequently asked question.</dd>
-                    <dt>Frequently asked question?</dt>
-                    <dd>Answer for the frequently asked question.</dd>
-                    <dt>Frequently asked question?</dt>
-                    <dd>Answer for the frequently asked question.</dd>
-                </dl>
+            <div class="accordion faq__content gap-3 justify-content-center align-items-start" id="accordionPanelsStayOpenExample">
+                <div class="container justify-content-center align-items-start">
+                    <h2 class="py-2">Purchases</h2>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                <strong>Payment</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                On checkout, you can use any credit or debit card selecting <strong>our online payment method</strong>. You may also pay in cash in any affiliated local store.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                <strong>Cancellations</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                For any cancellation please contact us at <a href="mailto: cancellations@storedomain.com">cancellations@storedomain.com</a>.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                <strong>Refunds</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                Our refunds policy will apply only if the purchase was made using our online payment method and your buyer score is higher than <code>80</code>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container justify-content-center align-items-start">
+                    <h2 class="py-2">Shipping</h2>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                <strong>Door to door</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                Our door to door system ensures that your product is delivered directly to your door without the need of leaving home.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFive">
+                                <strong>Product integrity</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFive">
+                            <div class="accordion-body">
+                                We make sure that all <strong>new</strong> products are sent in sealed packages and are carefully taken care of during shipping.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseSix">
+                                <strong>International shipping</strong>
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingSix">
+                            <div class="accordion-body">
+                                All products are sent through our private international airlines, ensureing product integrity and compliance of promised delivery times.
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
