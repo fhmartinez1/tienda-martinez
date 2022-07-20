@@ -10,6 +10,11 @@
     display: none;
 }
 
+.links-bar {
+    background-color: $primary;
+    color: $text-white;
+}
+
 @media (max-width: 1280px) {
     .store__items {
         grid-template-columns: repeat(3, 1fr);
