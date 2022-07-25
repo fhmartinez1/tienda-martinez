@@ -12,6 +12,7 @@
     grid-area: main;
     min-height: calc(100vh - 146px);
 
+    // index.html style
     &__title {
         text-align: center;
     }
@@ -33,6 +34,7 @@
         }
     }
 
+    // about.html style
     &__about {
         display: flex;
         flex-flow: column;
@@ -64,6 +66,14 @@
             padding: 0 30px;
             text-align: justify;
         }
+    }
+
+    // contact.html style
+    &__contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
     }
 }
 
