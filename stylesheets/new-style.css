@@ -124,6 +124,34 @@ ul {
       /* margin: 0px 10%; */
       align-items: center;
       justify-items: center; }
+  .main__store-title {
+    text-align: center; }
+  .main__store-card-container {
+    height: 30rem; }
+    .main__store-card-container-img {
+      height: 14rem;
+      align-self: center; }
+      .main__store-card-container-img img {
+        height: 100%; }
+    .main__store-card-container-body {
+      height: 10rem;
+      overflow-y: auto; }
+      .main__store-card-container-body h2 {
+        font-size: x-large; }
+    .main__store-card-container-btn {
+      height: 6rem; }
+
+.btn-primary {
+  color: #292929;
+  background-color: #C1FFD7;
+  border-color: #C1FFD7; }
+  .btn-primary:hover {
+    color: #292929;
+    background-color: #FCFFA6;
+    border-color: #FCFFA6; }
+  .btn-primary:active {
+    background-color: #C1FFD7;
+    border-color: #C1FFD7; }
 
 .accordion-item {
   width: 100%; }

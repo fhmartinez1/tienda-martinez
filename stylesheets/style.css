@@ -267,6 +267,7 @@ ul {
     color: rgb(41, 41, 41);
 }
 
+
 .btn-primary {
     --bs-btn-color: rgb(41, 41, 41) !important;
     --bs-btn-bg: #C1FFD7 !important;
@@ -283,6 +284,8 @@ ul {
     --bs-btn-disabled-bg: #C1FFD7 !important;
     --bs-btn-disabled-border-color: #C1FFD7 !important;
 }
+
+
 
 .card-container {
     height: 30rem;

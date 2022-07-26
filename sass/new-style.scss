@@ -96,6 +96,57 @@
             justify-items: center;
         }
     }
+
+    // store.html
+    &__store {
+        
+        &-title {
+            text-align: center;
+        }
+
+        &-card-container {
+            height: 30rem;
+            
+            &-img {
+                height: 14rem;
+                align-self: center;
+
+                img {
+                    height: 100%;
+                }
+            }
+
+            &-body {
+                height: 10rem;
+                overflow-y: auto;
+
+                h2 {
+                    font-size: x-large;
+                }
+            }
+
+            &-btn {
+                height: 6rem;
+            }
+        }
+    }
+}
+
+.btn-primary {
+    color: rgb(41, 41, 41);
+    background-color: #C1FFD7;
+    border-color: #C1FFD7;
+
+    &:hover {
+        color: rgb(41, 41, 41);
+        background-color: #FCFFA6;
+        border-color: #FCFFA6;
+    }
+
+    &:active {
+        background-color: #C1FFD7;
+        border-color: #C1FFD7;
+    }
 }
 
 .accordion-item {
