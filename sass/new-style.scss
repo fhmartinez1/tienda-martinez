@@ -146,18 +146,18 @@
 
 .btn-primary {
     color: rgb(41, 41, 41);
-    background-color: #C1FFD7;
-    border-color: #C1FFD7;
+    background-color: $element-primary;
+    border-color: $element-primary;
 
     &:hover {
         color: rgb(41, 41, 41);
-        background-color: #FCFFA6;
-        border-color: #FCFFA6;
+        background-color: $element-secondary;
+        border-color: $element-secondary;
     }
 
     &:active {
-        background-color: #C1FFD7;
-        border-color: #C1FFD7;
+        background-color: $element-primary;
+        border-color: $element-primary;
     }
 }
 
