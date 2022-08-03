@@ -26,10 +26,22 @@
             @include all-centered;
             display: flex;
             width: 100%;
-            max-width: 770px;
+            max-width: 600px;
 
             &-image {
                 border-radius: 10px;
+
+                // &-item {
+                //     max-width:  600vw;
+                //     max-height: 300vh;
+                //     align-items: center;
+
+                //     img {
+                //         height: 100%;
+                //         object-fit: cover;
+                //         overflow: hidden;
+                //     }
+                // }
             }
         }
     }
