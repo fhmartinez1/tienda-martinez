@@ -63,6 +63,15 @@ ul {
           .footer__content-links-list li:hover {
             transform: scale(1.15); }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 68px;
+  border-radius: 100%;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center; }
+
 .main {
   grid-area: main;
   min-height: calc(100vh - 146px); }
@@ -157,33 +166,24 @@ ul {
   width: 100%; }
 
 .link-twitter {
-  margin: 0 5px;
-  padding: 10px 30px;
-  border-radius: 10px;
-  color: white;
   text-decoration: none;
-  background-color: #55acee; }
+  background-color: #55acee;
+  color: white; }
   .link-twitter:hover {
     opacity: 0.8; }
 
 .link-instagram {
-  margin: 0 5px;
-  padding: 10px 30px;
-  border-radius: 10px;
-  color: white;
   text-decoration: none;
-  background-color: #F56040; }
+  background-color: #F56040;
+  color: white; }
   .link-instagram:hover {
     opacity: 0.8; }
 
-.link-email {
-  margin: 0 5px;
-  padding: 10px 30px;
-  border-radius: 10px;
-  color: white;
+.link-facebook {
   text-decoration: none;
-  background-color: #005f8b; }
-  .link-email:hover {
+  background-color: #3B5998;
+  color: white; }
+  .link-facebook:hover {
     opacity: 0.8; }
 
 /* MEDIA QUERIES */
